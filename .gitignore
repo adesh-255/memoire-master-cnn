@@ -1,0 +1,17 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires Office
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# Dossiers IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
