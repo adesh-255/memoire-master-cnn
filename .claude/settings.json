@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Skill(memoire-analyst)",
-      "Skill(memoire-analyst:*)"
+      "Skill(memoire-analyst:*)",
+      "Skill(memoire-writer)",
+      "Skill(memoire-writer:*)",
+      "Skill(memoire-humanizer)",
+      "Skill(memoire-humanizer:*)",
+      "Skill(memoire-reviewer)",
+      "Skill(memoire-reviewer:*)",
+      "Skill(memoire-researcher)",
+      "Skill(memoire-researcher:*)"
     ]
   }
 }
