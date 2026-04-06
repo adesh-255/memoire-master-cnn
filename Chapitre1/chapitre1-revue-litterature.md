@@ -42,7 +42,7 @@ Mais la CXR a ses angles morts, et la littérature les a documentés avec une pr
 
 La dimension humaine est peut-être plus révélatrice encore. Cleverley et al. (2022) rapportent des taux de désaccord inter-observateur pouvant atteindre 30 % sur certaines lésions subtiles — ce qui signifie qu'un tiers des lectures diverge entre deux radiologues pourtant expérimentés confrontés au même cliché. Cette variabilité n'est pas un aveu d'incompétence : elle reflète l'ambiguïté réelle de certaines images, dont l'interprétation correcte dépend du contexte clinique, de l'expérience accumulée et de conditions de lecture qui ne sont pas toujours optimales. Quekel et al. (1999) ont quantifié un versant particulièrement préoccupant de ce phénomène : dans leur étude, 26 % des nodules pulmonaires visibles à la radiographie avaient été manqués par des spécialistes lors d'une lecture de routine. Ce taux de faux négatifs, mesuré rétrospectivement après confirmation de cancer du poumon, illustre ce que la charge de travail et la fatigue font à l'attention humaine.
 
-À ces limites diagnostiques s'ajoute un dernier problème, d'ordre structurel : la pénurie de radiologues dans les régions les plus touchées par les maladies pulmonaires. En Afrique subsaharienne, la densité est de 0,9 spécialiste par million d'habitants, contre 47 à 110 en Europe [À VALIDER — référence [10]]. Des milliers de clichés sont produits chaque jour dans des structures dépourvues du personnel nécessaire pour les interpréter dans des délais cliniquement acceptables. C'est face à ce décalage — entre la disponibilité physique de l'outil et l'indisponibilité de l'expertise humaine pour en exploiter les résultats — que l'intelligence artificielle a commencé à s'imposer comme piste sérieuse.
+À ces limites diagnostiques s'ajoute un dernier problème, d'ordre structurel : la pénurie de radiologues dans les régions les plus touchées par les maladies pulmonaires. En Afrique subsaharienne, la densité est de 0,9 spécialiste par million d'habitants, contre 47 à 110 en Europe (Sarkodie et al., 2023) [⚠️ chiffre régional 0,9/million à compléter par une source régionale]. Des milliers de clichés sont produits chaque jour dans des structures dépourvues du personnel nécessaire pour les interpréter dans des délais cliniquement acceptables. C'est face à ce décalage — entre la disponibilité physique de l'outil et l'indisponibilité de l'expertise humaine pour en exploiter les résultats — que l'intelligence artificielle a commencé à s'imposer comme piste sérieuse.
 
 ---
 
@@ -114,7 +114,7 @@ Des questions demeurent ouvertes. La généralisation des modèles à des contex
 
 | Statut | Item |
 |---|---|
-| ⚠️ À VALIDER | Référence [10] — auteurs complets de l'étude sur la pénurie de radiologues en Afrique subsaharienne |
+| ⚠️ À COMPLÉTER | [10] Sarkodie et al. (2023) — auteurs confirmés ✅. Chiffre 0,9/million (Afrique subsaharienne) nécessite une source régionale complémentaire |
 | ⚠️ SOURCE MANQUANTE | Section 1.5 TB — revue systématique récente sur CNN + tuberculose (AUC > 0,99) |
 | ✅ Corrigé | CAD introduit dès 1.1 (§ COVID-19), cohérent avec 1.3 |
 | ✅ Corrigé | AUC défini à la 1ère occurrence en 1.5 (section TB) |

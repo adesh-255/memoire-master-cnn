@@ -10,7 +10,9 @@
       "Skill(memoire-reviewer)",
       "Skill(memoire-reviewer:*)",
       "Skill(memoire-researcher)",
-      "Skill(memoire-researcher:*)"
+      "Skill(memoire-researcher:*)",
+      "Skill(memoire-figure)",
+      "Skill(memoire-figure:*)"
     ]
   }
 }

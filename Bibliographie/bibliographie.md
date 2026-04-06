@@ -36,8 +36,9 @@
 **[9]** World Health Organization. (2024). *Pneumonia* [Fact sheet]. WHO. https://www.who.int/news-room/fact-sheets/detail/pneumonia
 > **Fait clé** : 610 000 enfants <5 ans morts de pneumonie en 2023, dont >52 % en Afrique subsaharienne.
 
-**[10]** [Auteurs à vérifier]. (2023). Density and regional distribution of radiologists in a low-income country: The Ghana situation. *Chinese Journal of Academic Radiology*. https://doi.org/10.1007/s42058-023-00130-z
-> **Fait clé** : 0,9 radiologue par million d'habitants en Afrique subsaharienne (vs 47–110 en Europe).
+**[10]** Sarkodie, B., Ohene-Botwe, B., Mensah, Y. B., Tagoe, E., Jimah, B. B., Brakohiapa, E. K., & Dzefi-Tettey, K. (2023). Density and regional distribution of radiologists in a low-income country: The Ghana situation. *Chinese Journal of Academic Radiology*. https://doi.org/10.1007/s42058-023-00130-z
+> **Fait clé** : Ghana = 3 radiologues/million en moyenne nationale ; 8 régions sur 16 sous 1/million. Illustration du déficit structurel en Afrique subsaharienne.
+> ⚠️ **Note** : Le chiffre régional de 0,9/million pour l'Afrique subsaharienne (cité en Introduction et Ch.1) nécessite une source régionale complémentaire — à confirmer avec l'encadreur.
 
 ---
 
