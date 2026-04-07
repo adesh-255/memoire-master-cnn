@@ -1,0 +1,420 @@
+TY  - JOUR
+AU  - LeCun, Yann
+AU  - Bengio, Yoshua
+AU  - Hinton, Geoffrey
+TI  - Deep Learning
+T2  - Nature
+PY  - 2015
+VL  - 521
+IS  - 7553
+SP  - 436
+EP  - 444
+DO  - 10.1038/nature14539
+ER  -
+
+TY  - JOUR
+AU  - LeCun, Yann
+AU  - Bottou, Leon
+AU  - Bengio, Yoshua
+AU  - Haffner, Patrick
+TI  - Gradient-Based Learning Applied to Document Recognition
+T2  - Proceedings of the IEEE
+PY  - 1998
+VL  - 86
+IS  - 11
+SP  - 2278
+EP  - 2324
+DO  - 10.1109/5.726791
+ER  -
+
+TY  - CONF
+AU  - Krizhevsky, Alex
+AU  - Sutskever, Ilya
+AU  - Hinton, Geoffrey E.
+TI  - ImageNet Classification with Deep Convolutional Neural Networks
+T2  - Advances in Neural Information Processing Systems
+PY  - 2012
+VL  - 25
+SP  - 1097
+EP  - 1105
+DO  - 10.1145/3065386
+ER  -
+
+TY  - CONF
+AU  - He, Kaiming
+AU  - Zhang, Xiangyu
+AU  - Ren, Shaoqing
+AU  - Sun, Jian
+TI  - Deep Residual Learning for Image Recognition
+T2  - Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+PY  - 2016
+SP  - 770
+EP  - 778
+DO  - 10.1109/CVPR.2016.90
+ER  -
+
+TY  - CONF
+AU  - Huang, Gao
+AU  - Liu, Zhuang
+AU  - van der Maaten, Laurens
+AU  - Weinberger, Kilian Q.
+TI  - Densely Connected Convolutional Networks
+T2  - Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+PY  - 2017
+SP  - 4700
+EP  - 4708
+DO  - 10.1109/CVPR.2017.243
+N1  - Best Paper Award
+ER  -
+
+TY  - CONF
+AU  - Szegedy, Christian
+AU  - Liu, Wei
+AU  - Jia, Yangqing
+AU  - Sermanet, Pierre
+AU  - Reed, Scott
+AU  - Anguelov, Dragomir
+AU  - Erhan, Dumitru
+AU  - Vanhoucke, Vincent
+AU  - Rabinovich, Andrew
+TI  - Going Deeper with Convolutions
+T2  - Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+PY  - 2015
+SP  - 1
+EP  - 9
+DO  - 10.1109/CVPR.2015.7298594
+ER  -
+
+TY  - CONF
+AU  - Simonyan, Karen
+AU  - Zisserman, Andrew
+TI  - Very Deep Convolutional Networks for Large-Scale Image Recognition
+T2  - Proceedings of the International Conference on Learning Representations (ICLR)
+PY  - 2015
+UR  - https://arxiv.org/abs/1409.1556
+DO  - 10.48550/arXiv.1409.1556
+ER  -
+
+TY  - CONF
+AU  - Tan, Mingxing
+AU  - Le, Quoc V.
+TI  - EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+T2  - Proceedings of the 36th International Conference on Machine Learning (ICML)
+PY  - 2019
+SP  - 6105
+EP  - 6114
+UR  - https://proceedings.mlr.press/v97/tan19a.html
+ER  -
+
+TY  - BOOK
+AU  - Goodfellow, Ian
+AU  - Bengio, Yoshua
+AU  - Courville, Aaron
+TI  - Deep Learning
+PB  - MIT Press
+PY  - 2016
+SN  - 978-0-262-03561-3
+UR  - https://www.deeplearningbook.org/
+ER  -
+
+TY  - CONF
+AU  - Wang, Xiaosong
+AU  - Peng, Yifan
+AU  - Lu, Le
+AU  - Lu, Zhiyong
+AU  - Bagheri, Mohammadhadi
+AU  - Summers, Ronald M.
+TI  - ChestX-ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases
+T2  - Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+PY  - 2017
+SP  - 2097
+EP  - 2106
+DO  - 10.1109/CVPR.2017.369
+ER  -
+
+TY  - JOUR
+AU  - Rajpurkar, Pranav
+AU  - Irvin, Jeremy
+AU  - Zhu, Kaylie
+AU  - Yang, Brandon
+AU  - Mehta, Hershel
+AU  - Duan, Tony
+AU  - Ding, Daisy
+AU  - Bagul, Aarti
+AU  - Langlotz, Curtis
+AU  - Shpanskaya, Katie
+AU  - Lungren, Matthew P.
+AU  - Ng, Andrew Y.
+TI  - CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning
+T2  - arXiv
+PY  - 2017
+DO  - 10.48550/arXiv.1711.05225
+UR  - https://arxiv.org/abs/1711.05225
+ER  -
+
+TY  - CONF
+AU  - Irvin, Jeremy
+AU  - Rajpurkar, Pranav
+AU  - Ko, Michael
+AU  - Yu, Yifan
+AU  - Ciurea-Ilcus, Silviana
+AU  - Chute, Chris
+AU  - Marklund, Henrik
+AU  - Haghgoo, Behzad
+AU  - Ball, Robyn
+AU  - Shpanskaya, Katie
+AU  - Seekins, Jayne
+AU  - Mong, David A.
+AU  - Halabi, Safwan S.
+AU  - Sandberg, Jesse K.
+AU  - Jones, Ricky
+AU  - Larson, David B.
+AU  - Langlotz, Curtis P.
+AU  - Patel, Bhavik N.
+AU  - Lungren, Matthew P.
+AU  - Ng, Andrew Y.
+TI  - CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+PY  - 2019
+VL  - 33
+SP  - 590
+EP  - 597
+DO  - 10.1609/aaai.v33i01.3301590
+ER  -
+
+TY  - JOUR
+AU  - Kermany, Daniel S.
+AU  - Goldbaum, Michael
+AU  - Cai, Wenjia
+AU  - Valentim, Carolina C. S.
+AU  - Liang, Huiying
+AU  - Baxter, Sally L.
+AU  - McKeown, Alex
+AU  - Yang, Ge
+AU  - Wu, Xiaokang
+AU  - Yan, Fangbing
+TI  - Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning
+T2  - Cell
+PY  - 2018
+VL  - 172
+IS  - 5
+SP  - 1122
+EP  - 1131
+DO  - 10.1016/j.cell.2018.02.010
+ER  -
+
+TY  - JOUR
+AU  - Jaeger, Stefan
+AU  - Candemir, Sema
+AU  - Antani, Sameer
+AU  - Wang, Yi-Xiang J.
+AU  - Lu, Pu-Xuan
+AU  - Thoma, George
+TI  - Two Public Chest X-Ray Datasets for Computer-Aided Screening of Pulmonary Diseases
+T2  - Quantitative Imaging in Medicine and Surgery
+PY  - 2014
+VL  - 4
+IS  - 6
+SP  - 475
+EP  - 477
+DO  - 10.3978/j.issn.2223-4292.2014.11.20
+ER  -
+
+TY  - JOUR
+AU  - Shih, George
+AU  - Wu, Carol C.
+AU  - Halabi, Safwan S.
+AU  - Kohli, Marc D.
+AU  - Prevedello, Luciano M.
+AU  - Cook, Tessa S.
+AU  - Sharma, Arjun
+AU  - Amorosa, Judith K.
+AU  - Arteaga, Veronica
+AU  - Galperin-Aizenberg, Maya
+AU  - Gill, Ritu R.
+AU  - Godoy, Myrna C. B.
+AU  - Hobbs, Stephen
+AU  - Jeudy, Jean
+AU  - Laroia, Archana
+AU  - Shah, Palmi N.
+AU  - Vummidi, Dharshan
+AU  - Yaddanapudi, Kavitha
+AU  - Stein, Anouk
+TI  - Augmenting the NIH Chest Radiograph Dataset with Expert Annotations of Possible Pneumonia
+T2  - Radiology: Artificial Intelligence
+PY  - 2019
+VL  - 1
+IS  - 1
+DO  - 10.1148/ryai.2019180041
+ER  -
+
+TY  - JOUR
+AU  - Wang, Linda
+AU  - Lin, Zhong Qiu
+AU  - Wong, Alexander
+TI  - COVID-Net: A Tailored Deep Convolutional Neural Network Design for Detection of COVID-19 Cases from Chest X-Ray Images
+T2  - Scientific Reports
+PY  - 2020
+VL  - 10
+SP  - 19549
+DO  - 10.1038/s41598-020-76550-z
+ER  -
+
+TY  - JOUR
+AU  - Sethy, Prabira Kumar
+AU  - Behera, Santi Kumari
+TI  - Detection of Coronavirus Disease (COVID-19) Based on Deep Features
+T2  - Preprints
+PY  - 2020
+DO  - 10.20944/preprints202003.0300.v1
+UR  - https://www.preprints.org/manuscript/202003.0300/v1
+ER  -
+
+TY  - JOUR
+AU  - Litjens, Geert
+AU  - Kooi, Thijs
+AU  - Bejnordi, Babak Ehteshami
+AU  - Setio, Arnaud Arindra Adiyoso
+AU  - Ciompi, Francesco
+AU  - Ghafoorian, Mohsen
+AU  - van der Laak, Jeroen A. W. M.
+AU  - van Ginneken, Bram
+AU  - Sanchez, Clara I.
+TI  - A Survey on Deep Learning in Medical Image Analysis
+T2  - Medical Image Analysis
+PY  - 2017
+VL  - 42
+SP  - 60
+EP  - 88
+DO  - 10.1016/j.media.2017.07.005
+ER  -
+
+TY  - JOUR
+AU  - Meedeniya, Dulani
+AU  - Kumarasinghe, Hashara
+AU  - Kolonne, Shammi
+AU  - Fernando, Chamodi
+AU  - De la Torre Diez, Isabel
+AU  - Marques, Goncalo
+TI  - Chest X-Ray Analysis Empowered with Deep Learning: A Systematic Review
+T2  - Applied Soft Computing
+PY  - 2022
+VL  - 126
+SP  - 109319
+DO  - 10.1016/j.asoc.2022.109319
+ER  -
+
+TY  - JOUR
+AU  - Ahmad, Hassan K.
+AU  - Milne, Michael R.
+AU  - Buchlak, Quinlan D.
+AU  - Ektas, Nalan
+AU  - Sanderson, Georgina
+AU  - Chamtie, Hadi
+AU  - Karunasena, Sajith
+AU  - Chiang, Jason
+AU  - Holt, Xavier
+AU  - Tang, Cyril H. M.
+AU  - Seah, Jarrel C. Y.
+AU  - Bottrell, Georgina
+AU  - Esmaili, Nazanin
+AU  - Brotchie, Peter
+AU  - Jones, Catherine
+TI  - Machine Learning Augmented Interpretation of Chest X-Rays: A Systematic Review
+T2  - Diagnostics
+PY  - 2023
+VL  - 13
+IS  - 4
+SP  - 743
+DO  - 10.3390/diagnostics13040743
+ER  -
+
+TY  - JOUR
+AU  - Kim, Hee E.
+AU  - Cosa-Linan, Alejandro
+AU  - Santhanam, Nandhini
+AU  - Jannesari, Mahboubeh
+AU  - Maros, Mate E.
+AU  - Ganslandt, Thomas
+TI  - Transfer Learning for Medical Image Classification: A Literature Review
+T2  - BMC Medical Imaging
+PY  - 2022
+VL  - 22
+IS  - 1
+SP  - 69
+DO  - 10.1186/s12880-022-00793-7
+ER  -
+
+TY  - CONF
+AU  - Selvaraju, Ramprasaath R.
+AU  - Cogswell, Michael
+AU  - Das, Abhishek
+AU  - Vedantam, Ramakrishna
+AU  - Parikh, Devi
+AU  - Batra, Dhruv
+TI  - Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization
+T2  - Proceedings of the IEEE International Conference on Computer Vision (ICCV)
+PY  - 2017
+SP  - 618
+EP  - 626
+DO  - 10.1109/ICCV.2017.74
+ER  -
+
+TY  - JOUR
+AU  - Apostolopoulos, Ioannis D.
+AU  - Mpesiana, Tzani A.
+TI  - Covid-19: Automatic Detection from X-Ray Images Utilizing Transfer Learning with Convolutional Neural Networks
+T2  - Physical and Engineering Sciences in Medicine
+PY  - 2020
+VL  - 43
+IS  - 2
+SP  - 635
+EP  - 640
+DO  - 10.1007/s13246-020-00865-4
+ER  -
+
+TY  - JOUR
+AU  - Panwar, Harsh
+AU  - Gupta, P. K.
+AU  - Siddiqui, Mohammad Khubeb
+AU  - Morales-Menendez, Ruben
+AU  - Bhardwaj, Prakhar
+AU  - Singh, Vaishnavi
+TI  - A Deep Learning and Grad-CAM Based Color Visualization Approach for Fast Detection of COVID-19 Cases Using Chest X-Ray and CT-Scan Images
+T2  - Chaos, Solitons and Fractals
+PY  - 2020
+VL  - 140
+SP  - 110190
+DO  - 10.1016/j.chaos.2020.110190
+ER  -
+
+TY  - JOUR
+AU  - Sarkodie, B.
+AU  - Ohene-Botwe, B.
+AU  - Mensah, Y. B.
+AU  - Tagoe, E.
+AU  - Jimah, B. B.
+AU  - Brakohiapa, E. K.
+AU  - Dzefi-Tettey, K.
+TI  - Density and Regional Distribution of Radiologists in a Low-Income Country: The Ghana Situation
+T2  - Chinese Journal of Academic Radiology
+PY  - 2023
+DO  - 10.1007/s42058-023-00130-z
+ER  -
+
+TY  - RPRT
+AU  - World Health Organization
+TI  - Global Tuberculosis Report 2024
+PB  - WHO
+PY  - 2024
+UR  - https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2024
+ER  -
+
+TY  - RPRT
+AU  - World Health Organization
+TI  - Pneumonia
+PB  - WHO
+PY  - 2024
+UR  - https://www.who.int/news-room/fact-sheets/detail/pneumonia
+N1  - Fact sheet
+ER  -
