@@ -36,9 +36,11 @@
 **[9]** World Health Organization. (2024). *Pneumonia* [Fact sheet]. WHO. https://www.who.int/news-room/fact-sheets/detail/pneumonia
 > **Fait clé** : 610 000 enfants <5 ans morts de pneumonie en 2023, dont >52 % en Afrique subsaharienne.
 
-**[10]** Sarkodie, B., Ohene-Botwe, B., Mensah, Y. B., Tagoe, E., Jimah, B. B., Brakohiapa, E. K., & Dzefi-Tettey, K. (2023). Density and regional distribution of radiologists in a low-income country: The Ghana situation. *Chinese Journal of Academic Radiology*. https://doi.org/10.1007/s42058-023-00130-z
-> **Fait clé** : Ghana = 3 radiologues/million en moyenne nationale ; 8 régions sur 16 sous 1/million. Illustration du déficit structurel en Afrique subsaharienne.
-> ⚠️ **Note** : Le chiffre régional de 0,9/million pour l'Afrique subsaharienne (cité en Introduction et Ch.1) nécessite une source régionale complémentaire — à confirmer avec l'encadreur.
+**[10]** Karera, T., Davidson, R., & Engel-Hills, P. (2024). Operational challenges and collaborative solutions in radiology image interpretation: Perspectives from imaging departments in a low-resource setting. *Journal of Medical Radiation Sciences*. https://doi.org/10.1002/jmrs.815
+> **Fait clé** : Afrique subsaharienne = 0,9 radiologue/million en moyenne, contre 47 à 110/million en Europe. Source confirmée du chiffre cité en Introduction et Ch.1.
+
+**[10bis]** Sarkodie, B., Ohene-Botwe, B., Mensah, Y. B., Tagoe, E., Jimah, B. B., Brakohiapa, E. K., & Dzefi-Tettey, K. (2023). Density and regional distribution of radiologists in a low-income country: The Ghana situation. *Chinese Journal of Academic Radiology*. https://doi.org/10.1007/s42058-023-00130-z
+> **Fait clé** : Ghana = 3 radiologues/million en moyenne nationale ; 8 régions sur 16 sous 1/million. Illustration complémentaire du déficit structurel en Afrique subsaharienne.
 
 ---
 
@@ -107,6 +109,20 @@
 **[27]** Panwar, H., Gupta, P. K., Siddiqui, M. K., Morales-Menendez, R., Bhardwaj, P., & Singh, V. (2020). A deep learning and Grad-CAM based color visualization approach for fast detection of COVID-19 cases using chest X-ray and CT-scan images. *Chaos, Solitons & Fractals*, *140*, 110190. https://doi.org/10.1016/j.chaos.2020.110190
 > **Fait clé** : VGG-19 + Grad-CAM — démontre l'intérêt de l'explainabilité visuelle pour l'acceptabilité clinique.
 
+**[28]** DeGrave, A. J., Janizek, J. D., & Lee, S.-I. (2021). AI for radiographic COVID-19 detection selects shortcuts over signal. *Nature Machine Intelligence*, *3*(7), 610–619. https://doi.org/10.1038/s42256-021-00338-7
+> **Fait clé** : Les modèles entraînés sur des corpus COVID-19 composites apprennent la provenance des images (marqueurs, cadrage) plutôt que la pathologie, et s'effondrent sur données externes. Justifie l'exclusion de COVIDx (Ch.2 § 2.1).
+
+**[29]** Youden, W. J. (1950). Index for rating diagnostic tests. *Cancer*, *3*(1), 32–35. https://doi.org/10.1002/1097-0142(1950)3:1<32::AID-CNCR2820030106>3.0.CO;2-3
+> **Fait clé** : Indice J = sensibilité + spécificité − 1 ; sert au choix du seuil de décision sur la validation (Ch.2 § 2.4).
+
+**[30]** Efron, B., & Tibshirani, R. J. (1993). *An introduction to the bootstrap*. Chapman & Hall/CRC.
+> **Fait clé** : Méthode de référence pour les intervalles de confiance par rééchantillonnage (Ch.2 § 2.5).
+
+**[31]** Lakhani, P., & Sundaram, B. (2017). Deep learning at chest radiography: Automated classification of pulmonary tuberculosis by using convolutional neural networks. *Radiology*, *284*(2), 574–582. https://doi.org/10.1148/radiol.2017162326
+> **Fait clé** : Ensemble AlexNet + GoogLeNet, 1 007 radiographies (dont Montgomery et Shenzhen) : AUC 0,99 pour la tuberculose. Comble la source manquante du Ch.1 § 1.5 ; repère du Ch.3 § 3.3.
+
+> [28] et [31] vérifiées le 2026-10-06 (titre, revue, volume, pages) ; DOI de [31], [29] et [30] à contrôler dans Mendeley avant dépôt.
+
 ---
 
 ## Statistiques clés à exploiter
@@ -118,7 +134,7 @@
 | 10,8 millions nouveaux cas TB en 2023 | [8] OMS, 2024 | Intro + Ch.1 |
 | 1,25 million de décès TB en 2023 | [8] OMS, 2024 | Intro + Ch.1 |
 | 610 000 enfants <5 ans morts de pneumonie (2023) | [9] OMS, 2024 | Intro + Ch.1 |
-| 0,9 radiologue/million hab. en Afrique subsaharienne | [10] 2023 | Intro + Ch.1 |
+| 0,9 radiologue/million hab. en Afrique subsaharienne (vs 47-110 en Europe) | [10] Karera et al., 2024 | Intro + Ch.1 |
 | ResNet : 3,57 % erreur top-5 (vs 5,1 % humain) | [5] He et al., 2016 | Ch.2 — Architectures |
 | DenseNet-121 = base de CheXNet Stanford | [20] Huang et al., 2017 | Ch.2 — Architectures |
 | 224 316 radiographies dans CheXpert | [15] Irvin et al., 2019 | Ch.2 — Datasets |
@@ -127,4 +143,4 @@
 
 ---
 
-*27 références — 1 à vérifier ([10] auteurs complets). Toutes les autres : sources primaires confirmées.*
+*32 références. Sources primaires confirmées ([10] Karera et al., 2024 vérifiée le 2026-07-02 via PMC ; [28] et [31] le 2026-10-06), DOI de [29] à [31] à contrôler.*

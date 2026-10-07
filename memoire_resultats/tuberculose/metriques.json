@@ -1,0 +1,74 @@
+{
+  "titre": "Tuberculose",
+  "libelles": [
+    "Normal",
+    "Tuberculose"
+  ],
+  "pathologie": true,
+  "seuil_validation": 0.27396270632743835,
+  "test": {
+    "precision": 0.8214285714285714,
+    "rappel": 0.7796610169491526,
+    "specificite": 0.8360655737704918,
+    "f1": 0.8,
+    "exactitude": 0.8083333333333333,
+    "auc": 0.8860794665184775,
+    "vp": 46,
+    "fp": 10,
+    "fn": 13,
+    "vn": 51
+  },
+  "test_seuil_0_5": {
+    "precision": 0.9285714285714286,
+    "rappel": 0.6610169491525424,
+    "specificite": 0.9508196721311475,
+    "f1": 0.7722772277227723,
+    "exactitude": 0.8083333333333333,
+    "auc": 0.8860794665184775,
+    "vp": 39,
+    "fp": 3,
+    "fn": 20,
+    "vn": 58
+  },
+  "ic95": {
+    "precision": [
+      0.717391304347826,
+      0.9123185117967332
+    ],
+    "rappel": [
+      0.6619547932757838,
+      0.8793103448275862
+    ],
+    "specificite": [
+      0.7384426229508197,
+      0.9215686274509803
+    ],
+    "f1": [
+      0.7102652999698522,
+      0.8703703703703703
+    ],
+    "auc": [
+      0.815537037037037,
+      0.9419495500293292
+    ]
+  },
+  "n_test": 120,
+  "n_test_positifs": 59,
+  "poids_positif": 1.0327272727272727,
+  "epoques_phase1": 10,
+  "epoques_total": 50,
+  "epoque_retenue": 47,
+  "duree_entrainement_min": 3.7510336796442667,
+  "gradcam": {
+    "VP": {
+      "image": "/root/.cache/kagglehub/datasets/kmader/pulmonary-chest-xray-abnormalities/versions/1/ChinaSet_AllFiles/ChinaSet_AllFiles/CXR_png/CHNCXR_0327_1.png",
+      "patient": "CHNCXR_0327",
+      "proba": 0.7822927236557007
+    },
+    "FN": {
+      "image": "/root/.cache/kagglehub/datasets/kmader/pulmonary-chest-xray-abnormalities/versions/1/ChinaSet_AllFiles/ChinaSet_AllFiles/CXR_png/CHNCXR_0604_1.png",
+      "patient": "CHNCXR_0604",
+      "proba": 0.021973218768835068
+    }
+  }
+}

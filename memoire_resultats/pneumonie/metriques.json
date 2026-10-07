@@ -1,0 +1,74 @@
+{
+  "titre": "Pneumonie",
+  "libelles": [
+    "Normal",
+    "Pneumonie"
+  ],
+  "pathologie": true,
+  "seuil_validation": 0.5872331261634827,
+  "test": {
+    "precision": 0.9938837920489296,
+    "rappel": 0.9658246656760773,
+    "specificite": 0.9841269841269841,
+    "f1": 0.9796533534287868,
+    "exactitude": 0.9708108108108108,
+    "auc": 0.9962056888134155,
+    "vp": 650,
+    "fp": 4,
+    "fn": 23,
+    "vn": 248
+  },
+  "test_seuil_0_5": {
+    "precision": 0.9908814589665653,
+    "rappel": 0.9687964338781575,
+    "specificite": 0.9761904761904762,
+    "f1": 0.9797145003756574,
+    "exactitude": 0.9708108108108108,
+    "auc": 0.9962056888134155,
+    "vp": 652,
+    "fp": 6,
+    "fn": 21,
+    "vn": 246
+  },
+  "ic95": {
+    "precision": [
+      0.9875578358841683,
+      0.9984962406015038
+    ],
+    "rappel": [
+      0.9502888641543435,
+      0.9786114216927341
+    ],
+    "specificite": [
+      0.9677390345787886,
+      0.9962264150943396
+    ],
+    "f1": [
+      0.9710026379381456,
+      0.9868235764376035
+    ],
+    "auc": [
+      0.9931465762773417,
+      0.9984357713514556
+    ]
+  },
+  "n_test": 925,
+  "n_test_positifs": 673,
+  "poids_positif": 0.3717259905977166,
+  "epoques_phase1": 10,
+  "epoques_total": 50,
+  "epoque_retenue": 46,
+  "duree_entrainement_min": 25.73099933465322,
+  "gradcam": {
+    "VP": {
+      "image": "/kaggle/input/chest-xray-pneumonia/chest_xray/chest_xray/train/PNEUMONIA/person402_bacteria_1811.jpeg",
+      "patient": "P-person402",
+      "proba": 0.998004138469696
+    },
+    "FN": {
+      "image": "/kaggle/input/chest-xray-pneumonia/chest_xray/chest_xray/train/PNEUMONIA/person813_virus_1449.jpeg",
+      "patient": "P-person813",
+      "proba": 0.00034605705877766013
+    }
+  }
+}

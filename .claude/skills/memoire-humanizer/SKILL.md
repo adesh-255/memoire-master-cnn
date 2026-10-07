@@ -22,6 +22,8 @@ Mémoire de Master en français, niveau universitaire. Le texte doit passer des 
 - ❌ Phrases trop symétriques / trop bien équilibrées
 - ❌ Adverbes d'intensité en série ("extrêmement", "particulièrement", "notamment")
 - ❌ Transitions identiques à chaque paragraphe
+- ❌ **Tiret cadratin (—), sous toutes ses formes** : incises, apposés, titres (« Chapitre 2 — … »), légendes (« Figure 2.1 — … »), cellules vides de tableau. C'est la signature IA la plus visible. Remplacer par une virgule, des parenthèses, deux-points, ou couper la phrase. Légendes : « Figure 2.1 : … ». Intervalles numériques : « 0,85 à 0,90 » ou « [0,85 ; 0,90] »
+- ❌ Tournures « Ce n'est pas X, c'est Y » / « X n'a rien d'arbitraire » / « Peu spectaculaire en apparence, … »
 
 ### Patterns structurels typiques IA
 - Paragraphes de longueur trop uniforme
@@ -34,7 +36,7 @@ Mémoire de Master en français, niveau universitaire. Le texte doit passer des 
 
 ### 1. Variation syntaxique
 - Alterner phrases courtes (impact) et longues (développement)
-- Insérer des incises : "— phénomène que nous analyserons plus loin —"
+- Insérer des incises entre virgules ou entre parenthèses : ", phénomène que nous analyserons plus loin,"
 - Utiliser des questions rhétoriques ponctuellement
 - Varier les constructions : active/passive, nominale/verbale
 

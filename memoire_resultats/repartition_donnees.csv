@@ -1,0 +1,10 @@
+tâche,ensemble,images,patients,négatifs,positifs,classes (nég. / pos.)
+Pneumonie,train,4085,1952,1107,2978,Normal / Pneumonie
+Pneumonie,val,846,419,224,622,Normal / Pneumonie
+Pneumonie,test,925,419,252,673,Normal / Pneumonie
+Tuberculose,train,559,559,284,275,Normal / Tuberculose
+Tuberculose,val,121,121,61,60,Normal / Tuberculose
+Tuberculose,test,120,120,61,59,Normal / Tuberculose
+Pneumonie bactérienne vs virale,train,3008,1171,1960,1048,Bactérienne / Virale
+Pneumonie bactérienne vs virale,val,619,251,404,215,Bactérienne / Virale
+Pneumonie bactérienne vs virale,test,646,252,416,230,Bactérienne / Virale

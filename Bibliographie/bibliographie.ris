@@ -418,3 +418,49 @@ PY  - 2024
 UR  - https://www.who.int/news-room/fact-sheets/detail/pneumonia
 N1  - Fact sheet
 ER  -
+
+TY  - JOUR
+AU  - DeGrave, Alex J.
+AU  - Janizek, Joseph D.
+AU  - Lee, Su-In
+TI  - AI for Radiographic COVID-19 Detection Selects Shortcuts over Signal
+T2  - Nature Machine Intelligence
+PY  - 2021
+VL  - 3
+IS  - 7
+SP  - 610
+EP  - 619
+DO  - 10.1038/s42256-021-00338-7
+ER  - 
+
+TY  - JOUR
+AU  - Youden, W. J.
+TI  - Index for Rating Diagnostic Tests
+T2  - Cancer
+PY  - 1950
+VL  - 3
+IS  - 1
+SP  - 32
+EP  - 35
+ER  - 
+
+TY  - BOOK
+AU  - Efron, Bradley
+AU  - Tibshirani, Robert J.
+TI  - An Introduction to the Bootstrap
+PB  - Chapman and Hall/CRC
+PY  - 1993
+ER  - 
+
+TY  - JOUR
+AU  - Lakhani, Paras
+AU  - Sundaram, Baskaran
+TI  - Deep Learning at Chest Radiography: Automated Classification of Pulmonary Tuberculosis by Using Convolutional Neural Networks
+T2  - Radiology
+PY  - 2017
+VL  - 284
+IS  - 2
+SP  - 574
+EP  - 582
+DO  - 10.1148/radiol.2017162326
+ER  - 
