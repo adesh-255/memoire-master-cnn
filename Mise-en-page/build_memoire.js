@@ -20,8 +20,8 @@ const COUVERTURE = {
   theme: "Détection des maladies pulmonaires par réseaux de neurones convolutionnels (CNN) à partir d'images radiographiques",
   auteur: 'ALAWO Adeshina Néhémiah',
   directeur: '[À COMPLÉTER : Nom, prénoms, qualité ou titre du directeur]',
-  specialite: '[À CONFIRMER : IA-BD]',
-  annee: '[À CONFIRMER : 2025-2026]',
+  specialite: 'IA-BD',
+  annee: '2024-2025',
 };
 
 // ---------------------------------------------------------------- Mise en forme (canevas ESGIS)
