@@ -1,0 +1,50 @@
+{
+  "tache": "pneumonie",
+  "architecture": "densenet121",
+  "masque": "bords_masques",
+  "titre": "Pneumonie",
+  "seuil_validation": 0.5208619236946106,
+  "test": {
+    "precision": 0.9894259818731118,
+    "rappel": 0.9732540861812778,
+    "specificite": 0.9722222222222222,
+    "f1": 0.9812734082397003,
+    "exactitude": 0.972972972972973,
+    "auc": 0.9971874336658884,
+    "vp": 655,
+    "fp": 7,
+    "fn": 18,
+    "vn": 245
+  },
+  "ic95": {
+    "precision": [
+      0.9807969264856267,
+      0.9969653282032328
+    ],
+    "rappel": [
+      0.9605248709254836,
+      0.984849629222741
+    ],
+    "specificite": [
+      0.9497863351821219,
+      0.9919386840757809
+    ],
+    "f1": [
+      0.9736644093303235,
+      0.9881840311693058
+    ],
+    "auc": [
+      0.9953744058203456,
+      0.9986905778548937
+    ]
+  },
+  "n_test": 925,
+  "n_test_positifs": 673,
+  "epoques_phase1": 10,
+  "epoques_total": 42,
+  "epoque_retenue": 32,
+  "duree_entrainement_min": 10.640714120864867,
+  "part_activation_bords": 0.35649056077269176,
+  "surface_bords": 0.5149872448979592,
+  "parametres_millions": 6.954881
+}

@@ -1,0 +1,50 @@
+{
+  "tache": "bacterien_viral",
+  "architecture": "resnet50",
+  "masque": "aucun",
+  "titre": "Pneumonie bactérienne vs virale",
+  "seuil_validation": 0.535371720790863,
+  "test": {
+    "precision": 0.6538461538461539,
+    "rappel": 0.7391304347826086,
+    "specificite": 0.7836538461538461,
+    "f1": 0.693877551020408,
+    "exactitude": 0.7678018575851393,
+    "auc": 0.835488085284281,
+    "vp": 170,
+    "fp": 90,
+    "fn": 60,
+    "vn": 326
+  },
+  "ic95": {
+    "precision": [
+      0.5984841172341172,
+      0.7115649606299213
+    ],
+    "rappel": [
+      0.6817965367965367,
+      0.793994572077758
+    ],
+    "specificite": [
+      0.744889968035407,
+      0.8239675589032981
+    ],
+    "f1": [
+      0.6447612687147385,
+      0.7396330242383015
+    ],
+    "auc": [
+      0.8026347614143791,
+      0.8682658900158352
+    ]
+  },
+  "n_test": 646,
+  "n_test_positifs": 230,
+  "epoques_phase1": 10,
+  "epoques_total": 28,
+  "epoque_retenue": 18,
+  "duree_entrainement_min": 5.0414677937825525,
+  "part_activation_bords": 0.4691182372362717,
+  "surface_bords": 0.5149872448979592,
+  "parametres_millions": 23.510081
+}

@@ -216,7 +216,7 @@ ARCHITECTURE DENSENET-121 ADAPTÉE À LA CLASSIFICATION THORACIQUE
 - Format portrait, largeur 10 cm
 
 ### Légende (SOUS la figure)
-*Figure 2.2 : Architecture DenseNet-121 adaptée à la classification de radiographies thoraciques. Les blocs en bleu correspondent aux couches pré-entraînées sur ImageNet ; les couches en orange et rouge sont ajoutées et entraînées pour la tâche médicale. Transfer learning en deux phases : extraction de features (Phase 1, base gelée), puis fine-tuning progressif (Phase 2). Adapté de Huang et al. (2017) et Rajpurkar et al. (2017). Conception personnelle, 2026.*
+*Figure 2.2 : Architecture DenseNet-121 adaptée à la classification des radiographies thoraciques. Les couleurs indiquent le calendrier de l'apprentissage par transfert : couches pré-entraînées sur ImageNet gelées pendant tout l'entraînement (bleu), dégelées à partir de la 6e époque de la phase 2 (orange) ou dès sa 1re époque (jaune), tête de classification ajoutée et entraînée dès la phase 1 (rouge). Dimensions des sorties pour une image de 224 × 224 pixels. Adapté de Huang et al. (2017). Source : conception personnelle, 2026.*
 
 ### Texte de renvoi
 > "La Figure 2.2 illustre l'architecture DenseNet-121 adaptée, distinguant les couches pré-entraînées sur ImageNet (bleu) des couches ajoutées pour la classification des pathologies pulmonaires (orange et rouge)."
@@ -268,14 +268,14 @@ PARTITIONNEMENT DES DONNÉES : SÉPARATION AU NIVEAU PATIENT
 - Format paysage, pleine largeur
 
 ### Légende (SOUS la figure)
-*Figure 2.3 : Schéma de partitionnement du corpus de données en sous-ensembles d'entraînement (70 %), de validation (15 %) et de test (15 %). La séparation est effectuée au niveau patient afin de prévenir toute fuite d'information (data leakage). La stratification par classe garantit le respect des proportions originales dans chaque sous-ensemble. Conception personnelle, 2026.*
+*Figure 2.3 : Partitionnement des données au niveau du patient, illustré sur la tâche pneumonie. 70 % des patients servent à l'entraînement, 15 % à la validation et 15 % au test, avec stratification par classe ; les effectifs des autres tâches figurent au Tableau 2.2. Source : conception personnelle, 2026.*
 
 ### Texte de renvoi
 > "La Figure 2.3 illustre le schéma de partitionnement adopté, soulignant la séparation stricte au niveau patient entre les trois sous-ensembles et les usages distincts qui leur sont assignés."
 
 ---
 
-## FIGURE 2.4 : Courbe ROC (placeholder)
+## FIGURE 2.5 : Courbe ROC (placeholder)
 
 ### Code Python Matplotlib (à exécuter après expérimentation)
 
@@ -309,14 +309,14 @@ plt.savefig("figure_2_4_roc_placeholder.png", dpi=300)
 ```
 
 ### Légende (SOUS la figure)
-*Figure 2.4 : Courbe ROC (Receiver Operating Characteristic) du modèle DenseNet-121 pour la tâche de détection de pneumonie (placeholder, valeurs à compléter après expérimentation). L'axe des abscisses représente le taux de faux positifs (1 − Spécificité) ; l'axe des ordonnées représente la sensibilité. La diagonale en pointillés correspond à une classification aléatoire (AUC = 0,50) ; une courbe idéale se rapprocherait du coin supérieur gauche (AUC = 1,0).*
+*Figure 2.5 : Lecture d'une courbe ROC (illustration). Courbes théoriques de deux tests de pouvoir discriminant différent : l'aire sous la courbe (AUC) résume ce pouvoir, de 0,5 pour un classement au hasard à 1 pour un test parfait ; le point marqué correspond au seuil qui maximise l'indice de Youden. Les courbes obtenues par nos modèles sont présentées au Chapitre 3. Source : conception personnelle, 2026.*
 
 ### Texte de renvoi
-> "La Figure 2.4 présente la structure de la courbe ROC produite à l'issue de l'expérimentation, permettant d'évaluer la capacité discriminante du modèle pour l'ensemble des seuils de classification."
+> "La Figure 2.5 présente la structure de la courbe ROC produite à l'issue de l'expérimentation, permettant d'évaluer la capacité discriminante du modèle pour l'ensemble des seuils de classification."
 
 ---
 
-## FIGURE 2.5 : Matrice de confusion (placeholder)
+## FIGURE 2.4 : Matrice de confusion (placeholder)
 
 ### Structure (tableau Word/Excel)
 
@@ -355,10 +355,10 @@ INTERPRÉTATION :
 ```
 
 ### Légende (SOUS la figure)
-*Figure 2.5 : Structure de la matrice de confusion pour la classification binaire (normal / pathologique). Les cases diagonales (TP en vert foncé, TN en vert clair) indiquent les prédictions correctes ; les cases hors diagonale (FP en orange, FN en rouge) indiquent les erreurs. Les faux négatifs (FN) constituent l'erreur la plus critique en contexte médical. Les valeurs numériques seront complétées à l'issue de l'expérimentation. Conception personnelle, 2026.*
+*Figure 2.4 : Structure de la matrice de confusion pour une classification binaire et définition des métriques qui en découlent. Les cases diagonales correspondent aux prédictions correctes ; le faux négatif est l'erreur la plus grave en contexte de dépistage. Source : conception personnelle, 2026.*
 
 ### Texte de renvoi
-> "La Figure 2.5 présente la structure de la matrice de confusion mobilisée pour l'évaluation, en distinguant les quatre types de résultats possibles et leur interprétation clinique respective."
+> "La Figure 2.4 présente la structure de la matrice de confusion mobilisée pour l'évaluation, en distinguant les quatre types de résultats possibles et leur interprétation clinique respective."
 
 ---
 
@@ -371,8 +371,8 @@ INTERPRÉTATION :
 | Figure 2.1 | Schéma PowerPoint | Fin section 2.2 | ⚠️ À créer dans PPT |
 | Figure 2.2 | Schéma PowerPoint/draw.io | Après §adaptation, section 2.3 | ⚠️ À créer dans PPT |
 | Figure 2.3 | Schéma PowerPoint | Après §partitionnement, section 2.4 | ⚠️ À créer dans PPT |
-| Figure 2.4 | Graphique Matplotlib (placeholder) | Section 2.5, après §AUC | ⚠️ Code Python fourni |
-| Figure 2.5 | Tableau Word coloré (placeholder) | Section 2.5, après §matrice confusion | ⚠️ À créer dans Word |
+| Figure 2.5 | Graphique Matplotlib (placeholder) | Section 2.5, après §AUC | ⚠️ Code Python fourni |
+| Figure 2.4 | Tableau Word coloré (placeholder) | Section 2.5, après §matrice confusion | ⚠️ À créer dans Word |
 
 ---
 

@@ -123,6 +123,34 @@
 
 > [28] et [31] vérifiées le 2026-10-06 (titre, revue, volume, pages) ; DOI de [31], [29] et [30] à contrôler dans Mendeley avant dépôt.
 
+**[32]** Cleverley, J., Piper, J., & Jones, M. M. (2020). The role of chest radiography in confirming covid-19 pneumonia. *BMJ*, *370*, m2426. https://doi.org/10.1136/bmj.m2426
+> **Fait clé** : Sensibilité de la radiographie pour le COVID-19 (69 %) comparée au scanner (Ch.1 § 1.2). Chiffre à confirmer dans le texte intégral.
+
+**[33]** Elemraid, M. A., Muller, M., Spencer, D. A., Rushton, S. P., Gorton, R., Thomas, M. F., Eastham, K. M., Hampton, F., Gennery, A. R., Clark, J. E., & North East of England Paediatric Respiratory Infection Study Group. (2014). Accuracy of the interpretation of chest radiographs for the diagnosis of paediatric pneumonia. *PLoS ONE*, *9*(8), e106051. https://doi.org/10.1371/journal.pone.0106051
+> **Fait clé** : 22 % de désaccord entre lectures (κ = 0,70), 26 % avant 5 ans (Ch.1 § 1.2). Liste complète des auteurs vérifiée sur Europe PMC (PMID 25148361).
+
+**[34]** Quekel, L. G. B. A., Kessels, A. G. H., Goei, R., & van Engelshoven, J. M. A. (1999). Miss rate of lung cancer on the chest radiograph in clinical practice. *Chest*, *115*(3), 720–724. https://doi.org/10.1378/chest.115.3.720
+> **Fait clé** : 19 % des cancers bronchiques manqués sur la radiographie initiale (259 patients), retard médian 472 jours (Ch.1 § 1.2).
+
+**[35]** Raoof, S., Feigin, D., Sung, A., Raoof, S., Irugulpati, L., & Rosenow, E. C. (2012). Interpretation of plain chest roentgenogram. *Chest*, *141*(2), 545–558. https://doi.org/10.1378/chest.11-0889
+> **Fait clé** : Place de la radiographie thoracique dans l'imagerie (Ch.1 § 1.2). Chiffre de 25 % à confirmer dans le texte intégral.
+
+> [32] à [35] ajoutées le 2026-10-12 : références citées au Ch.1 mais absentes de la bibliographie. DOI et listes d'auteurs à contrôler dans Mendeley.
+
+**[36]** Mandrekar, J. N. (2010). Receiver operating characteristic curve in diagnostic test assessment. *Journal of Thoracic Oncology*, *5*(9), 1315–1316. https://doi.org/10.1097/JTO.0b013e3181ec173d
+> **Fait clé** : Grille de lecture de l'AUC : 0,5 aucune discrimination, 0,7 à 0,8 acceptable, 0,8 à 0,9 excellente (Ch.2 § 2.5). Vérifiée sur Europe PMC (PMID 20736804).
+
+**[37]** Règlement (UE) 2024/1689 du Parlement européen et du Conseil du 13 juin 2024 établissant des règles harmonisées concernant l'intelligence artificielle (règlement sur l'intelligence artificielle). (2024). *Journal officiel de l'Union européenne*, L, 2024/1689. http://data.europa.eu/eli/reg/2024/1689/oj
+> **Fait clé** : Les systèmes d'IA intégrés à des dispositifs médicaux soumis à une évaluation de conformité par un tiers sont à haut risque (art. 6 et annexe I) (Ch.3 § 3.8). Publié au JO le 12 juillet 2024.
+
+**[38]** U.S. Food and Drug Administration. (2021). *Artificial intelligence/machine learning (AI/ML)-based software as a medical device (SaMD) action plan*. https://www.fda.gov/media/145022/download
+> **Fait clé** : Plan d'action du 12 janvier 2021 : bonnes pratiques d'apprentissage automatique, suivi des performances en conditions réelles (Ch.3 § 3.8). Document et adresse vérifiés le 2026-10-13 (CDRH, 8 pages).
+
+**[39]** Shamshad, F., Khan, S., Zamir, S. W., Khan, M. H., Hayat, M., Khan, F. S., & Fu, H. (2023). Transformers in medical imaging: A survey. *Medical Image Analysis*, *88*, 102802. https://doi.org/10.1016/j.media.2023.102802
+> **Fait clé** : Revue des applications des Transformers (dont ViT) en imagerie médicale (Ch.3 § 3.8, perspectives).
+
+> [36] à [39] ajoutées le 2026-10-13 pour combler les sources manquantes des Ch.2 et Ch.3.
+
 ---
 
 ## Statistiques clés à exploiter

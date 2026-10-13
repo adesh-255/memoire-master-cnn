@@ -2,7 +2,7 @@
 
 > **Mémoire :** Détection des maladies pulmonaires par réseaux de neurones convolutionnels (CNN) à partir d'images radiographiques
 > **Auteur :** ALAWO Adeshina Néhémiah
-> **Version :** 1.1 (2026-10-06)
+> **Version :** 1.2 (2026-10-13)
 > **Statut :** Relu et validé ✓, style revu (tirets cadratins supprimés)
 
 ---
@@ -27,17 +27,17 @@ Nous faisons l'hypothèse qu'un CNN correctement dimensionné, entraîné sur un
 
 ## But et objectifs
 
-Ce mémoire vise à concevoir et à évaluer un modèle CNN de détection automatique des maladies pulmonaires sur radiographie thoracique, avec l'idée d'améliorer l'accès au diagnostic dans les zones sous-médicalisées. Cinq objectifs structurent la démarche :
+Ce mémoire vise à concevoir et à évaluer un modèle CNN de détection automatique des maladies pulmonaires sur radiographie thoracique, avec l'idée d'améliorer l'accès au diagnostic dans les zones sous-médicalisées, et à vérifier ce que ses performances mesurent réellement. Cinq objectifs structurent la démarche :
 
-1. Constituer et prétraiter un corpus d'images radiographiques à partir de bases de données de référence (Wang et al., 2017 ; Rajpurkar et al., 2017) ;
-2. Définir et optimiser une architecture CNN qui réponde aux exigences de précision et de robustesse propres au contexte médical ;
-3. Mesurer les performances du modèle selon les indicateurs usuels, à savoir la précision, le rappel, le F1-score et l'aire sous la courbe ROC (AUC, *Area Under the Curve*), afin d'en quantifier l'efficacité diagnostique ;
-4. Situer ces résultats par rapport aux performances d'experts humains et aux modèles publiés dans la littérature récente ;
+1. Constituer et prétraiter un corpus de radiographies annotées par des cliniciens et traçables au niveau du patient, à partir de bases publiques de référence pour la pneumonie (Kermany et al., 2018) et la tuberculose (Jaeger et al., 2014) ;
+2. Adapter une architecture CNN pré-entraînée, DenseNet-121, par apprentissage par transfert, et la comparer à deux architectures alternatives ;
+3. Mesurer les performances du modèle selon les indicateurs usuels, à savoir la précision, le rappel, le F1-score et l'aire sous la courbe ROC (AUC, *Area Under the Curve*), assortis d'intervalles de confiance, afin d'en quantifier l'efficacité diagnostique ;
+4. Situer ces résultats par rapport aux modèles publiés et aux performances humaines rapportées dans la littérature, puis vérifier, par l'analyse Grad-CAM, un test de masquage et une validation croisée entre hôpitaux, qu'ils reposent bien sur des signes radiologiques ;
 5. Dégager les limites de l'approche retenue et formuler des recommandations à l'intention des praticiens et des décideurs concernés par un éventuel déploiement clinique.
 
 ## Démarche et plan du mémoire
 
-Le mémoire suit une démarche hypothético-déductive en trois temps. Le premier chapitre pose le cadre théorique : épidémiologie des maladies pulmonaires, place de la radiographie thoracique dans la pratique clinique, fondements des CNN et principaux travaux du domaine. Le deuxième décrit la mise en œuvre, du choix des données au prétraitement, à l'architecture du modèle, au protocole d'entraînement et aux métriques retenues. Le troisième présente et discute les résultats, les compare à la littérature et en examine les implications cliniques et éthiques. La conclusion générale fait le bilan des apports de ce travail et des perspectives qu'il ouvre.
+Le mémoire suit une démarche hypothético-déductive en trois temps. Le premier chapitre pose le cadre théorique : épidémiologie des maladies pulmonaires, place de la radiographie thoracique dans la pratique clinique, fondements des CNN et principaux travaux du domaine. Le deuxième décrit la mise en œuvre, du choix des données au prétraitement, à l'architecture du modèle, au protocole d'entraînement et aux métriques retenues. Le troisième présente et discute les résultats, les compare à la littérature, les soumet à trois expériences complémentaires (test de raccourci par masquage, validation croisée entre hôpitaux, comparaison d'architectures) et en examine les implications cliniques et éthiques. La conclusion générale fait le bilan des apports de ce travail et des perspectives qu'il ouvre.
 
 ---
 
@@ -54,7 +54,7 @@ Le mémoire suit une démarche hypothético-déductive en trois temps. Le premie
 | ✅ Corrigé | "scalabilité" → "passage à l'échelle" |
 | ✅ Corrigé | "continent africain" → "Afrique subsaharienne" (harmonisé avec source OMS) |
 | ✅ Style | v1.1 : tirets cadratins supprimés, tournures reformulées |
-| ⚠️ À harmoniser | Objectif 1 cite Wang et al. (2017) (ChestX-ray14), base écartée au Ch.2 v2 ; la mention du COVID-19 dans le contexte peut rester. À trancher après validation du corpus par l'encadreur |
+| ✅ Corrigé (2026-10-13) | Objectifs réalignés sur le travail réalisé : corpus Kermany + Montgomery/Shenzhen, comparaison d'architectures, vérification par Grad-CAM, masquage et validation croisée ; la comparaison directe avec des radiologues n'est plus promise. Le COVID-19 reste mentionné dans le contexte |
 
 ---
 

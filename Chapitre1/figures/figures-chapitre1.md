@@ -51,7 +51,7 @@ Disponible sur Kaggle : https://www.kaggle.com/c/rsna-pneumonia-detection-challe
 
 ### Légende (à placer SOUS la figure dans Word)
 
-*Figure 1.1 : Exemples de radiographies thoraciques de face : (a) cliché normal présentant des champs pulmonaires clairs et une silhouette cardiaque régulière ; (b) pneumonie avec consolidation alvéolaire lobaire droite se traduisant par une opacité dense et une perte de transparence du champ pulmonaire droit. Source : dataset pédiatrique de Kermany et al. (2018).*
+*Figure 1.1 : Exemples de radiographies thoraciques pédiatriques de face issues du corpus utilisé dans ce travail. (a) Radiographie normale ; (b) radiographie étiquetée pneumonie bactérienne ; (c) radiographie étiquetée pneumonie virale. Les étiquettes sont celles fournies avec le corpus. Source : Kermany et al. (2018).*
 
 ### Texte de renvoi
 > "La Figure 1.1 illustre la différence radiographique entre un poumon sain et un poumon atteint de pneumonie, soulignant la nature des signes visuels que le modèle CNN devra apprendre à identifier."

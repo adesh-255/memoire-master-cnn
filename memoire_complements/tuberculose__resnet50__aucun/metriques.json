@@ -1,0 +1,50 @@
+{
+  "tache": "tuberculose",
+  "architecture": "resnet50",
+  "masque": "aucun",
+  "titre": "Tuberculose",
+  "seuil_validation": 0.4649926722049713,
+  "test": {
+    "precision": 0.8727272727272727,
+    "rappel": 0.8135593220338984,
+    "specificite": 0.8852459016393442,
+    "f1": 0.8421052631578948,
+    "exactitude": 0.85,
+    "auc": 0.9247013059183107,
+    "vp": 48,
+    "fp": 7,
+    "fn": 11,
+    "vn": 54
+  },
+  "ic95": {
+    "precision": [
+      0.7825889328063241,
+      0.9600196078431372
+    ],
+    "rappel": [
+      0.7096774193548387,
+      0.9038690476190476
+    ],
+    "specificite": [
+      0.8,
+      0.9615384615384616
+    ],
+    "f1": [
+      0.7640116168348886,
+      0.9059895833333332
+    ],
+    "auc": [
+      0.8671737656114104,
+      0.9679824561403509
+    ]
+  },
+  "n_test": 120,
+  "n_test_positifs": 59,
+  "epoques_phase1": 10,
+  "epoques_total": 49,
+  "epoque_retenue": 39,
+  "duree_entrainement_min": 1.993650205930074,
+  "part_activation_bords": 0.3606498305473411,
+  "surface_bords": 0.5149872448979592,
+  "parametres_millions": 23.510081
+}

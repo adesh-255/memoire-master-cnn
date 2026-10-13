@@ -1,0 +1,16 @@
+tâche,ensemble,images,patients,négatifs,positifs
+Pneumonie,train,4085,1952,1107,2978
+Pneumonie,val,846,419,224,622
+Pneumonie,test,925,419,252,673
+Tuberculose,train,559,559,284,275
+Tuberculose,val,121,121,61,60
+Tuberculose,test,120,120,61,59
+Pneumonie bactérienne vs virale,train,3008,1171,1960,1048
+Pneumonie bactérienne vs virale,val,619,251,404,215
+Pneumonie bactérienne vs virale,test,646,252,416,230
+"Tuberculose, Shenzhen vers Montgomery",train,562,562,277,285
+"Tuberculose, Shenzhen vers Montgomery",val,100,100,49,51
+"Tuberculose, Shenzhen vers Montgomery",test,138,138,80,58
+"Tuberculose, Montgomery vers Shenzhen",train,117,117,68,49
+"Tuberculose, Montgomery vers Shenzhen",val,21,21,12,9
+"Tuberculose, Montgomery vers Shenzhen",test,662,662,326,336

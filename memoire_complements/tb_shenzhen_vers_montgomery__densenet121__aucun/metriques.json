@@ -1,0 +1,50 @@
+{
+  "tache": "tb_shenzhen_vers_montgomery",
+  "architecture": "densenet121",
+  "masque": "aucun",
+  "titre": "Tuberculose, Shenzhen vers Montgomery",
+  "seuil_validation": 0.4860265851020813,
+  "test": {
+    "precision": 0.7592592592592593,
+    "rappel": 0.7068965517241379,
+    "specificite": 0.8375,
+    "f1": 0.7321428571428572,
+    "exactitude": 0.782608695652174,
+    "auc": 0.8521551724137931,
+    "vp": 41,
+    "fp": 13,
+    "fn": 17,
+    "vn": 67
+  },
+  "ic95": {
+    "precision": [
+      0.6345833333333333,
+      0.8627450980392157
+    ],
+    "rappel": [
+      0.592550505050505,
+      0.8135593220338984
+    ],
+    "specificite": [
+      0.753082788671024,
+      0.9125270061728394
+    ],
+    "f1": [
+      0.6370805222115132,
+      0.8103987068965516
+    ],
+    "auc": [
+      0.7879208574071491,
+      0.9120696201911228
+    ]
+  },
+  "n_test": 138,
+  "n_test_positifs": 58,
+  "epoques_phase1": 10,
+  "epoques_total": 50,
+  "epoque_retenue": 45,
+  "duree_entrainement_min": 2.010596927007039,
+  "part_activation_bords": 0.470955806343179,
+  "surface_bords": 0.5149872448979592,
+  "parametres_millions": 6.954881
+}

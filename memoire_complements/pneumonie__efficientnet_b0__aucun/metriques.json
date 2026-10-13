@@ -1,0 +1,50 @@
+{
+  "tache": "pneumonie",
+  "architecture": "efficientnet_b0",
+  "masque": "aucun",
+  "titre": "Pneumonie",
+  "seuil_validation": 0.26001349091529846,
+  "test": {
+    "precision": 0.9939393939393939,
+    "rappel": 0.974739970282318,
+    "specificite": 0.9841269841269841,
+    "f1": 0.9842460615153789,
+    "exactitude": 0.9772972972972973,
+    "auc": 0.997458666477983,
+    "vp": 656,
+    "fp": 4,
+    "fn": 17,
+    "vn": 248
+  },
+  "ic95": {
+    "precision": [
+      0.9866056414157591,
+      0.99850751829526
+    ],
+    "rappel": [
+      0.9625685638142866,
+      0.9855297839242296
+    ],
+    "specificite": [
+      0.9660335501320111,
+      0.9962124785591767
+    ],
+    "f1": [
+      0.9766763299966876,
+      0.9905454545454546
+    ],
+    "auc": [
+      0.9953535851931614,
+      0.9989299571103905
+    ]
+  },
+  "n_test": 925,
+  "n_test_positifs": 673,
+  "epoques_phase1": 10,
+  "epoques_total": 50,
+  "epoque_retenue": 47,
+  "duree_entrainement_min": 11.786871671676636,
+  "part_activation_bords": 0.5541259145275468,
+  "surface_bords": 0.5149872448979592,
+  "parametres_millions": 4.008829
+}

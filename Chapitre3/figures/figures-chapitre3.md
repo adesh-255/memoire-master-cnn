@@ -127,6 +127,82 @@ Fichier : `memoire_resultats/tableau3_1.csv`
 
 ---
 
+## TABLEAU 3.3 : Test de raccourci (pneumonie, DenseNet-121)
+
+**Position :** section 3.5, après le premier paragraphe.
+
+### Légende (au-dessus du tableau)
+
+*Tableau 3.3 : Effet du masquage sur la détection de la pneumonie. Bande masquée : 15 % du côté de l'image sur chaque bord, soit 51 % de la surface. Écart d'AUC par rapport à l'image complète estimé par bootstrap apparié (1 000 tirages). Activation sur les bords : part moyenne de l'activation Grad-CAM située dans la bande, sur les cas positifs du test.*
+
+### Contenu
+
+| Variante | Image fournie au modèle | AUC [IC 95 %] | Écart vs image complète [IC 95 %] | Rappel | Spécificité | Activation sur les bords |
+|---|---|---|---|---|---|---|
+| Image complète | Image entière | 0,996 [0,993 ; 0,998] | Référence | 0,970 | 0,968 | 41 % |
+| Bords masqués | Bande périphérique noircie | 0,997 [0,995 ; 0,999] | +0,001 [−0,001 ; +0,004] | 0,973 | 0,972 | 36 % |
+| **Bords seuls** | **Centre noirci** | **0,991 [0,987 ; 0,995]** | **−0,004 [−0,008 ; −0,001]** | 0,930 | 0,956 | 62 % |
+
+**Note de bas de tableau :** une activation répartie uniformément donnerait 51 % (surface de la bande). Source : conception personnelle, 2026.
+
+---
+
+## FIGURE 3.5 : Test de raccourci
+
+**Fichier :** `memoire_complements/figure_test_raccourci.png` · **Position :** section 3.5, après le paragraphe sur la variante « bords seuls »
+
+### Légende (sous la figure)
+
+*Figure 3.5 : Test de raccourci sur un même patient de test. En haut, l'image fournie à chacun des trois modèles et l'AUC de test correspondante ; en bas, la carte Grad-CAM. Le modèle « bords seuls » fonde sa décision sur une électrode de surveillance et son câble (en bas à droite). Source : conception personnelle, 2026.*
+
+---
+
+## TABLEAU 3.4 : Validation croisée entre hôpitaux (tuberculose, DenseNet-121)
+
+**Position :** section 3.6, en ouverture.
+
+### Légende (au-dessus du tableau)
+
+*Tableau 3.4 : Performances du modèle de tuberculose selon l'hôpital d'entraînement et de test. Seuil fixé sur la validation de l'hôpital d'entraînement.*
+
+### Contenu
+
+| Entraînement | Test | Images (entraînement / test) | AUC [IC 95 %] | Rappel | Spécificité |
+|---|---|---|---|---|---|
+| Montgomery et Shenzhen mélangés | Montgomery et Shenzhen mélangés | 559 / 120 | 0,887 [0,815 ; 0,943] | 0,763 | 0,885 |
+| Shenzhen | Montgomery | 562 / 138 | 0,852 [0,788 ; 0,912] | 0,707 | 0,838 |
+| Montgomery | Shenzhen | 117 / 662 | 0,725 [0,686 ; 0,760] | 0,845 | 0,433 |
+
+**Note de bas de tableau :** la première ligne provient de la seconde série d'expériences ; son AUC est identique à celle du Tableau 3.1, le rappel et la spécificité diffèrent légèrement car le seuil fixé en validation a varié. Source : conception personnelle, 2026.
+
+---
+
+## TABLEAU 3.5 : Comparaison d'architectures
+
+**Position :** section 3.7, en ouverture.
+
+### Légende (au-dessus du tableau)
+
+*Tableau 3.5 : AUC de test des trois architectures sur les trois tâches. Écart par rapport à DenseNet-121 estimé par bootstrap apparié (1 000 tirages) ; un écart est significatif si son intervalle ne contient pas zéro.*
+
+### Contenu
+
+| Tâche | Architecture | Paramètres (millions) | AUC [IC 95 %] | Écart vs DenseNet-121 [IC 95 %] |
+|---|---|---|---|---|
+| Pneumonie | DenseNet-121 | 7,0 | 0,996 [0,993 ; 0,998] | Référence |
+| | ResNet-50 | 23,5 | 0,998 [0,996 ; 0,999] | +0,002 [−0,0001 ; +0,004] |
+| | EfficientNet-B0 | 4,0 | 0,997 [0,995 ; 0,999] | +0,002 [−0,001 ; +0,005] |
+| Tuberculose | DenseNet-121 | 7,0 | 0,887 [0,815 ; 0,943] | Référence |
+| | ResNet-50 | 23,5 | 0,925 [0,867 ; 0,968] | +0,038 [−0,0001 ; +0,078] |
+| | **EfficientNet-B0** | 4,0 | **0,810 [0,719 ; 0,887]** | **−0,077 [−0,128 ; −0,033]** |
+| Bactérienne ou virale | DenseNet-121 | 7,0 | 0,842 [0,808 ; 0,873] | Référence |
+| | ResNet-50 | 23,5 | 0,835 [0,803 ; 0,868] | −0,007 [−0,028 ; +0,014] |
+| | EfficientNet-B0 | 4,0 | 0,831 [0,797 ; 0,863] | −0,011 [−0,032 ; +0,007] |
+
+**Note de bas de tableau :** en gras, le seul écart significatif. Paramètres comptés sans la tête de classification ImageNet. Source : conception personnelle, 2026.
+
+---
+
 ## ANNEXE : Galerie Grad-CAM
 
 **Fichiers :** `memoire_resultats/{pneumonie,tuberculose,bacterien_viral}/gradcam_galerie/` (6 VP et 6 FN par tâche ; nom de fichier = type, score, patient).
@@ -145,4 +221,8 @@ Fichier : `memoire_resultats/tableau3_1.csv`
 | Figure 3.3 | 3.2 | `figure3_3_courbes_roc.png` | ✅ |
 | Tableau 3.2 | 3.3 | (tableau Word) | ✅ À recopier ; une vérification à faire (note) |
 | Figure 3.4 | 3.4 | `figure3_4_gradcam.png` | ✅ |
-| Galerie | Annexe | `*/gradcam_galerie/` | ⏳ Planche à composer |
+| Tableau 3.3 | 3.5 | (tableau Word) | ✅ |
+| Figure 3.5 | 3.5 | `memoire_complements/figure_test_raccourci.png` | ✅ |
+| Tableau 3.4 | 3.6 | (tableau Word) | ✅ |
+| Tableau 3.5 | 3.7 | (tableau Word) | ✅ |
+| Galerie | Annexe | `*/gradcam_galerie/` | ✅ Composée par le générateur Word |
