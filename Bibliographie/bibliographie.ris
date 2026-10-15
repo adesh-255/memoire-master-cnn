@@ -582,3 +582,37 @@ VL  - 88
 SP  - 102802
 DO  - 10.1016/j.media.2023.102802
 ER  -
+
+TY  - JOUR
+AU  - Geirhos, Robert
+AU  - Jacobsen, Jörn-Henrik
+AU  - Michaelis, Claudio
+AU  - Zemel, Richard
+AU  - Brendel, Wieland
+AU  - Bethge, Matthias
+AU  - Wichmann, Felix A.
+TI  - Shortcut learning in deep neural networks
+T2  - Nature Machine Intelligence
+PY  - 2020
+VL  - 2
+IS  - 11
+SP  - 665
+EP  - 673
+DO  - 10.1038/s42256-020-00257-z
+ER  - 
+
+TY  - JOUR
+AU  - Zech, John R.
+AU  - Badgeley, Marcus A.
+AU  - Liu, Manway
+AU  - Costa, Anthony B.
+AU  - Titano, Joseph J.
+AU  - Oermann, Eric Karl
+TI  - Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study
+T2  - PLOS Medicine
+PY  - 2018
+VL  - 15
+IS  - 11
+SP  - e1002683
+DO  - 10.1371/journal.pmed.1002683
+ER  - 

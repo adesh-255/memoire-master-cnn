@@ -151,6 +151,12 @@
 
 > [36] à [39] ajoutées le 2026-10-13 pour combler les sources manquantes des Ch.2 et Ch.3.
 
+**[40]** Geirhos, R., Jacobsen, J.-H., Michaelis, C., Zemel, R., Brendel, W., Bethge, M., & Wichmann, F. A. (2020). Shortcut learning in deep neural networks. *Nature Machine Intelligence*, *2*(11), 665–673. https://doi.org/10.1038/s42256-020-00257-z
+> **Fait clé** : Définition de l'apprentissage par raccourci ; recommandation de tests hors distribution (section 6.2) (Ch.4 § 4.2). Vérifiée sur le texte intégral (arXiv:2004.07780).
+
+**[41]** Zech, J. R., Badgeley, M. A., Liu, M., Costa, A. B., Titano, J. J., & Oermann, E. K. (2018). Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study. *PLOS Medicine*, *15*(11), e1002683. https://doi.org/10.1371/journal.pmed.1002683
+> **Fait clé** : Le seul fait de reconnaître l'hôpital donne une AUC de 0,861 ; le meilleur modèle passe de 0,931 en interne à 0,815 sur un hôpital extérieur (Ch.4 § 4.2 et 4.3). Vérifiée sur Europe PMC (PMID 30399157).
+
 ---
 
 ## Statistiques clés à exploiter

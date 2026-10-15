@@ -37,7 +37,7 @@ Ce mémoire vise à concevoir et à évaluer un modèle CNN de détection automa
 
 ## Démarche et plan du mémoire
 
-Le mémoire suit une démarche hypothético-déductive en trois temps. Le premier chapitre pose le cadre théorique : épidémiologie des maladies pulmonaires, place de la radiographie thoracique dans la pratique clinique, fondements des CNN et principaux travaux du domaine. Le deuxième décrit la mise en œuvre, du choix des données au prétraitement, à l'architecture du modèle, au protocole d'entraînement et aux métriques retenues. Le troisième présente et discute les résultats, les compare à la littérature, les soumet à trois expériences complémentaires (test de raccourci par masquage, validation croisée entre hôpitaux, comparaison d'architectures) et en examine les implications cliniques et éthiques. La conclusion générale fait le bilan des apports de ce travail et des perspectives qu'il ouvre.
+Le mémoire suit une démarche hypothético-déductive en quatre chapitres. Le premier pose le cadre théorique : épidémiologie des maladies pulmonaires, place de la radiographie thoracique dans la pratique clinique, fondements des CNN et principaux travaux du domaine. Le deuxième décrit la mise en œuvre, du choix des données au prétraitement, à l'architecture du modèle, au protocole d'entraînement et aux métriques retenues. Le troisième présente et analyse les résultats, les compare à la littérature et les soumet à trois expériences complémentaires : un test de raccourci par masquage, une validation croisée entre hôpitaux et une comparaison d'architectures. Le quatrième les discute : il les replace dans le cadre de l'apprentissage par raccourci, examine les limites du travail et ses implications cliniques et éthiques, puis formule des recommandations et des perspectives. La conclusion générale fait le bilan des apports de ce travail.
 
 ---
 
@@ -54,6 +54,7 @@ Le mémoire suit une démarche hypothético-déductive en trois temps. Le premie
 | ✅ Corrigé | "scalabilité" → "passage à l'échelle" |
 | ✅ Corrigé | "continent africain" → "Afrique subsaharienne" (harmonisé avec source OMS) |
 | ✅ Style | v1.1 : tirets cadratins supprimés, tournures reformulées |
+| ✅ Corrigé (2026-10-15) | Plan en quatre chapitres (Chapitre 4 « Discussion et perspectives » demandé par le directeur) |
 | ✅ Corrigé (2026-10-13) | Objectifs réalignés sur le travail réalisé : corpus Kermany + Montgomery/Shenzhen, comparaison d'architectures, vérification par Grad-CAM, masquage et validation croisée ; la comparaison directe avec des radiologues n'est plus promise. Le COVID-19 reste mentionné dans le contexte |
 
 ---

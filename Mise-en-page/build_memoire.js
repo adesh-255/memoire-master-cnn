@@ -413,6 +413,7 @@ const corps = [
   ...chapitre('Chapitre1/chapitre1-revue-litterature.md'),
   ...chapitre('Chapitre2/chapitre2-materiels-methodes.md'),
   ...chapitre('Chapitre3/chapitre3-resultats-discussion.md'),
+  ...chapitre('Chapitre4/chapitre4-discussion-perspectives.md'),
   ...chapitre('Conclusion/conclusion-generale.md'),
   ...bibliographie(),
 ];
