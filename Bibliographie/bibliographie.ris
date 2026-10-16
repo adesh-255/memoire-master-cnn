@@ -616,3 +616,72 @@ IS  - 11
 SP  - e1002683
 DO  - 10.1371/journal.pmed.1002683
 ER  - 
+
+TY  - JOUR
+AU  - Brown, A.
+AU  - Tomasev, N.
+AU  - Freyberg, J.
+AU  - Liu, Y.
+AU  - Karthikesalingam, A.
+AU  - Schrouff, J.
+TI  - Detecting shortcut learning for fair medical AI using shortcut testing
+T2  - Nature Communications
+PY  - 2023
+VL  - 14
+IS  - 1
+SP  - 4314
+DO  - 10.1038/s41467-023-39902-7
+ER  -
+
+TY  - JOUR
+AU  - Field, E. L.
+AU  - Tam, W.
+AU  - Moore, N.
+AU  - McEntee, M.
+TI  - Efficacy of artificial intelligence in the categorisation of paediatric pneumonia on chest radiographs: A systematic review
+T2  - Children
+PY  - 2023
+VL  - 10
+IS  - 3
+SP  - 576
+DO  - 10.3390/children10030576
+ER  -
+
+TY  - JOUR
+AU  - Han, Z. L.
+AU  - Zhang, Y. Y.
+AU  - Li, J.
+AU  - Gao, S.
+AU  - Liu, W.
+AU  - Yang, W. J.
+AU  - Xing, Z. H.
+TI  - A systematic review and meta-analysis of artificial intelligence software for tuberculosis diagnosis using chest X-ray imaging
+T2  - Journal of Thoracic Disease
+PY  - 2025
+VL  - 17
+IS  - 5
+SP  - 3223
+EP  - 3237
+DO  - 10.21037/jtd-2025-604
+ER  -
+
+TY  - JOUR
+AU  - Ong Ly, C.
+AU  - Unnikrishnan, B.
+AU  - Tadic, T.
+AU  - Patel, T.
+AU  - Duhamel, J.
+AU  - Kandel, S.
+AU  - Moayedi, Y.
+AU  - Brudno, M.
+AU  - Hope, A.
+AU  - Ross, H.
+AU  - McIntosh, C.
+TI  - Shortcut learning in medical AI hinders generalization: Method for estimating AI model generalization without external data
+T2  - npj Digital Medicine
+PY  - 2024
+VL  - 7
+IS  - 1
+SP  - 124
+DO  - 10.1038/s41746-024-01118-4
+ER  -

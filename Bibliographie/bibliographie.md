@@ -157,6 +157,18 @@
 **[41]** Zech, J. R., Badgeley, M. A., Liu, M., Costa, A. B., Titano, J. J., & Oermann, E. K. (2018). Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study. *PLOS Medicine*, *15*(11), e1002683. https://doi.org/10.1371/journal.pmed.1002683
 > **Fait clé** : Le seul fait de reconnaître l'hôpital donne une AUC de 0,861 ; le meilleur modèle passe de 0,931 en interne à 0,815 sur un hôpital extérieur (Ch.4 § 4.2 et 4.3). Vérifiée sur Europe PMC (PMID 30399157).
 
+**[42]** Brown, A., Tomasev, N., Freyberg, J., Liu, Y., Karthikesalingam, A., & Schrouff, J. (2023). Detecting shortcut learning for fair medical AI using shortcut testing. *Nature Communications*, *14*(1), 4314. https://doi.org/10.1038/s41467-023-39902-7
+> **Fait clé** : Le raccourci comme mécanisme d'inéquité ; méthode de test appliquée en radiologie et en dermatologie (Ch.4 § 4.4). Vérifiée sur Europe PMC (PMID 37463884).
+
+**[43]** Field, E. L., Tam, W., Moore, N., & McEntee, M. (2023). Efficacy of artificial intelligence in the categorisation of paediatric pneumonia on chest radiographs: A systematic review. *Children*, *10*(3), 576. https://doi.org/10.3390/children10030576
+> **Fait clé** : Pneumonie pédiatrique : certains modèles approchent 100 % d'exactitude, mais doivent être comparés à des radiologues et évalués en clinique (Ch.1 § 1.5). Vérifiée sur Europe PMC (PMID 36980134).
+
+**[44]** Han, Z. L., Zhang, Y. Y., Li, J., Gao, S., Liu, W., Yang, W. J., & Xing, Z. H. (2025). A systematic review and meta-analysis of artificial intelligence software for tuberculosis diagnosis using chest X-ray imaging. *Journal of Thoracic Disease*, *17*(5), 3223–3237. https://doi.org/10.21037/jtd-2025-604
+> **Fait clé** : 21 études, 5 logiciels : sensibilité 86 à 91 %, spécificité 59 à 80 %, seuil à ajuster selon le contexte (Ch.1 § 1.5, Ch.3 § 3.3). Vérifiée sur Europe PMC (PMID 40529749).
+
+**[45]** Ong Ly, C., Unnikrishnan, B., Tadic, T., Patel, T., Duhamel, J., Kandel, S., Moayedi, Y., Brudno, M., Hope, A., Ross, H., & McIntosh, C. (2024). Shortcut learning in medical AI hinders generalization: Method for estimating AI model generalization without external data. *npj Digital Medicine*, *7*(1), 124. https://doi.org/10.1038/s41746-024-01118-4
+> **Fait clé** : Sur 13 jeux de données médicaux, performance surestimée jusqu'à 20 % en moyenne par le raccourci lié aux conditions d'acquisition (Ch.4 § 4.2). Vérifiée sur Europe PMC (PMID 38744921).
+
 ---
 
 ## Statistiques clés à exploiter
